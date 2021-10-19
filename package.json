@@ -107,7 +107,7 @@
 		"@types/xmldom": "^0.1.30",
 		"@typescript-eslint/eslint-plugin": "^2.34.0",
 		"@typescript-eslint/parser": "^3.0.0",
-		"autoprefixer": "^9.8.6",
+		"autoprefixer": "^10.3.7",
 		"babel-eslint": "^10.1.0",
 		"babel-loader": "^8.2.2",
 		"babel-mocha-es6-compiler": "^0.1.0",
