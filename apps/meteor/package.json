@@ -180,7 +180,7 @@
 		"webpack": "^4.44.1"
 	},
 	"dependencies": {
-		"@babel/runtime": "^7.15.4",
+		"@babel/runtime": "^7.18.0",
 		"@bugsnag/js": "^7.11.0",
 		"@google-cloud/language": "^3.8.0",
 		"@google-cloud/storage": "^2.5.0",
