@@ -260,7 +260,7 @@
 		"fflate": "^0.7.3",
 		"fibers": "^5.0.1",
 		"file-type": "^16.5.3",
-		"filenamify": "^4.3.0",
+		"filenamify": "^5.1.1",
 		"filesize": "^3.6.1",
 		"google-libphonenumber": "^3.2.27",
 		"googleapis": "^25.0.0",
