@@ -142,7 +142,7 @@
 		"chai-spies": "^1.0.0",
 		"cross-env": "^7.0.3",
 		"emojione-assets": "^4.5.0",
-		"eslint": "^6.8.0",
+		"eslint": "^8.17.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-import": "^2.26.0",
 		"eslint-plugin-prettier": "^3.4.1",
