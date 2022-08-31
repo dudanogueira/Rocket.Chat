@@ -141,7 +141,7 @@
 		"@types/uuid": "^8.3.4",
 		"@types/xml-crypto": "^1.4.2",
 		"@typescript-eslint/eslint-plugin": "^5.30.7",
-		"@typescript-eslint/parser": "^5.30.7",
+		"@typescript-eslint/parser": "^5.36.1",
 		"autoprefixer": "^9.8.8",
 		"babel-loader": "^8.2.5",
 		"babel-plugin-array-includes": "^2.0.3",
