@@ -113,7 +113,7 @@ Meteor.methods({
 			}
 		}
 
-		const user = Users.findOne({ username: currentIntegration.username });
+		const user = Users.findOne({ username: integration.username });
 
 		if (!user || !user._id) {
 			throw new Meteor.Error('error-invalid-post-as-user', 'Invalid Post As User', {
@@ -130,6 +130,7 @@ Meteor.methods({
 					enabled: integration.enabled,
 					name: integration.name,
 					avatar: integration.avatar,
+					username: integration.username,
 					emoji: integration.emoji,
 					alias: integration.alias,
 					channel: channels,

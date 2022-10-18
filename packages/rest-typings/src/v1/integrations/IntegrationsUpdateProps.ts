@@ -11,6 +11,7 @@ export type IntegrationsUpdateProps =
 			scriptEnabled: boolean;
 			script?: string;
 			name: string;
+			username: string;
 			enabled: boolean;
 			alias?: string;
 			avatar?: string;
@@ -77,6 +78,10 @@ const integrationsUpdateSchema = {
 					type: 'string',
 					nullable: false,
 				},
+				username: {
+					type: 'string',
+					nullable: false,
+				},				
 				enabled: {
 					type: 'boolean',
 					nullable: false,
