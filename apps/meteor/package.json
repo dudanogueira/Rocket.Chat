@@ -145,7 +145,7 @@
 		"@types/xml-crypto": "^1.4.2",
 		"@typescript-eslint/eslint-plugin": "^5.30.7",
 		"@typescript-eslint/parser": "^5.30.7",
-		"autoprefixer": "^9.8.8",
+		"autoprefixer": "^10.4.12",
 		"babel-loader": "^8.2.5",
 		"babel-plugin-array-includes": "^2.0.3",
 		"babel-plugin-istanbul": "^6.1.1",
