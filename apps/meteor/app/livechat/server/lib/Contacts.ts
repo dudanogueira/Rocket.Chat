@@ -6,6 +6,7 @@ import { LivechatVisitors, Users, LivechatRooms, LivechatCustomField } from '@ro
 import type { ILivechatCustomField, ILivechatVisitor, IOmnichannelRoom } from '@rocket.chat/core-typings';
 
 import { Rooms, LivechatInquiry, Subscriptions } from '../../../models/server';
+import { AppEvents, Apps } from '/app/apps/server';
 
 type RegisterContactProps = {
 	_id?: string;
@@ -45,7 +46,7 @@ export const Contacts = {
 			}
 		}
 
-		let contactId;
+		let contactId: string;
 
 		const user = await LivechatVisitors.getVisitorByToken(token, { projection: { _id: 1 } });
 
@@ -95,6 +96,10 @@ export const Contacts = {
 		};
 
 		await LivechatVisitors.updateOne({ _id: contactId }, updateUser);
+
+		Meteor.defer(() => {
+			Apps.triggerEvent(AppEvents.IPostLivechatGuestSaved, contactId);
+		});
 
 		const rooms: IOmnichannelRoom[] = await LivechatRooms.findByVisitorId(contactId, {}).toArray();
 
