@@ -6,7 +6,7 @@ import { LivechatVisitors, Users, LivechatRooms, LivechatCustomField } from '@ro
 import type { ILivechatCustomField, ILivechatVisitor, IOmnichannelRoom } from '@rocket.chat/core-typings';
 
 import { Rooms, LivechatInquiry, Subscriptions } from '../../../models/server';
-import { AppEvents, Apps } from '/app/apps/server';
+import { AppEvents, Apps } from '../../../apps/server';
 
 type RegisterContactProps = {
 	_id?: string;
