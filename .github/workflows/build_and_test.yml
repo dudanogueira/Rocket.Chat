@@ -260,7 +260,7 @@ jobs:
           cache: 'yarn'
 
       - name: Restore build
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
           path: /tmp/build
@@ -369,7 +369,7 @@ jobs:
         run: yarn build
 
       - name: Restore build
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
           path: /tmp/build
@@ -519,7 +519,7 @@ jobs:
         run: yarn build
 
       - name: Restore build
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
           path: /tmp/build
@@ -622,7 +622,7 @@ jobs:
         run: yarn build
 
       - name: Restore build
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
           path: /tmp/build
@@ -760,7 +760,7 @@ jobs:
         run: yarn build
 
       - name: Restore build
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
           path: /tmp/build
@@ -887,7 +887,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Restore build
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: build
           path: /tmp/build
