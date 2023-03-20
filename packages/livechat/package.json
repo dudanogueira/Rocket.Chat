@@ -97,7 +97,7 @@
 		"i18next": "^21.8.10",
 		"markdown-it": "^11.0.1",
 		"mem": "^6.1.1",
-		"mitt": "^2.1.0",
+		"mitt": "^3.0.0",
 		"preact": "^10.8.2",
 		"preact-router": "^3.2.1",
 		"query-string": "^7.1.1",
